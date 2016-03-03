@@ -1,0 +1,143 @@
+body {
+	font-family: Arial, sans-serif;
+}
+/*header*/
+.header {
+	position: fixed;
+	list-style-type: none;
+	height: 40px;
+	width: 100%;
+	background-color: white;
+	top: 0px;
+}
+.header ul li {
+	font-size: small;
+	color: #666;
+}
+.header a {
+	text-decoration: none;
+	color:#666;
+}
+.header a:hover {
+	text-decoration: underline;
+}
+.header a:visited{
+	text-decoration: none;
+}
+.header img {
+	border-radius: 20px;
+}
+#rechtsboven {
+	float: right;
+	display: inline-block;
+	margin-top: 3px;
+}
+#rechtsboven li {
+	display: inline;
+	text-align: right;
+	margin-right: 20px;
+}
+
+/*middenstuk*/
+.middenstuk {
+	text-align: center;
+}
+.logo {
+	height: 95px;
+	width: 269px;
+	display: block;
+	margin: 150px auto 20px auto;
+}
+.tekst {
+	height: 38px;
+	width: 550px;
+	margin: 10px auto 10px auto;
+	font-family: Arial;
+	font-size: small;
+	border: 1px solid #dcdcdc;
+}
+.tekst:hover {
+	border: 1px solid #757575;
+}
+#zoeken {
+	height: 36px;
+	width: 126px;
+	background-color: #f5f5f5;
+	border: none;
+	color: #757575;
+	margin: 10px;
+	font-weight: bold;
+	font-size: small;
+	text-align: center;
+	display: inline;
+}
+
+#zoeken:hover {
+	border: 1px solid #dcdcdc;
+	color: black;
+}
+
+#gok {
+	height: 36px;
+	width: 126px;
+	background-color: #f5f5f5;
+	border: none;
+	color: #757575;
+	margin: 10px;
+	font-weight: bold;
+	font-size: small;
+	text-align: center;
+	display: inline;
+}
+
+#gok:hover {
+	border: 1px solid #dcdcdc;
+	color: black;
+}
+/* Footer */
+.footer {
+	position: fixed;
+	list-style-type: none;
+	height: 40px;
+	width: 100%;
+	background-color: #f2f2f2;
+	bottom: 0px;
+	border-top: 1px solid #e4e4e4;
+}
+
+.footer a {
+	font-size: small;
+	text-decoration: none;
+	color: #666;
+}
+
+.footer a:hover {
+	text-decoration: underline;
+}
+
+.footer a:visited {
+	text-decoration: none;
+}
+
+#left {
+	display: inline-block;
+	margin-top: 10px;
+}
+
+#right {
+	float: right;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+#left li {
+	text-align: left;
+	display: inline;
+	margin-right: 20px;
+}
+
+#right li {
+	display: inline;
+	text-align: right;
+	margin-right: 20px;
+}

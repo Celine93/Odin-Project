@@ -1,0 +1,65 @@
+body {
+	background-color: #F6C6FF;
+}
+
+@font-face {
+	font-family: test;
+	src: url(http://fonts.gstatic.com/s/grandhotel/v4/NrGQkrs9rbHm5EYx0Eil0ogp9Q8gbYrhqGlRav_IXfk.woff2) format('woff2');
+}
+
+h1 {
+	font-size: 48px;
+	color: #CB2323;
+	font-family: test;
+	text-align: center;
+}
+
+.buttoncontainer {
+	text-align: center;
+}
+
+#hoeveel {
+	font-family: test;
+	font-size: 30px;
+	color: blue;
+	border-radius: 5px;
+	border: 1px solid black;
+	background-color: #EF9CFF;
+}
+
+#randomkleur {
+	font-family: test;
+	font-size: 30px;
+	color: blue;
+	border-radius: 5px;
+	border: 1px solid black;
+	background-color: #EF9CFF;
+}
+
+#hoeveel:hover {
+	font-weight: bold;
+	border: 2px solid black;
+}
+
+#randomkleur:hover {
+	font-weight: bold;
+	border: 2px solid black;
+}
+
+#container {
+	background-color: #CB2323;
+	height: 400px;
+	width: 400px;
+	display: block;
+	margin: 0px auto;
+	margin-top: 20px;
+}
+
+.grid {
+	background-color: blue;
+	height: 10px;
+	width: 10px;
+	margin: 1px;
+	float: left;
+
+}
